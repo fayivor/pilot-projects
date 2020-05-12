@@ -47,30 +47,30 @@ let updateClock = function () {
   let time = new Date().getHours();
   let messageText;
   let image =
-    "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
+    "https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?cs=srgb&dl=man-standing-in-the-middle-of-road-1553783.jpg&fm=jpg";
 
   let timeEventJS = document.getElementById("timeEvent");
   let lolcatImageJS = document.getElementById("lolcatImage");
 
   if (time == partytime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/partyTime.jpg";
+      "https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
     messageText = "Let's party!";
   } else if (time == wakeuptime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
+      "https://images.pexels.com/photos/3764541/pexels-photo-3764541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
     messageText = "Wake up!";
   } else if (time == lunchtime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
+      "https://images.pexels.com/photos/1030943/pexels-photo-1030943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
     messageText = "Let's have some lunch!";
   } else if (time == naptime) {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+      "https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
     messageText = "Sleep tight!";
   } else if (time < noon) {
     image =
-      "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg";
+      "https://images.pexels.com/photos/1052150/pexels-photo-1052150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
     messageText = "Good morning!";
   } else if (time >= evening) {
     image = "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cat_sleep.jpg";
