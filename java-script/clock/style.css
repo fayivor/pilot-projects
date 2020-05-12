@@ -38,7 +38,7 @@ h6 {
   font-family: "Bungee Shade", cursive;
 }
 
-#lolcatImage {
+#timeImage {
   max-width: 30em;
 }
 
@@ -54,7 +54,7 @@ blockquote:before {
   content: '';
 }
 blockquote:after {
-  content: '"';
+  content: '';
 }
 
 #lolcat {
@@ -83,8 +83,8 @@ blockquote:after {
   margin-top: 20px;
 }
 
-#partyTimeButton:hover {
-  background-color: orange;
+#partyTimeButton:hover{
+    background-color: orange;
 }
 
 footer p {

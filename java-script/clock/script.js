@@ -50,7 +50,7 @@ let updateClock = function () {
     "https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?cs=srgb&dl=man-standing-in-the-middle-of-road-1553783.jpg&fm=jpg";
 
   let timeEventJS = document.getElementById("timeEvent");
-  let lolcatImageJS = document.getElementById("lolcatImage");
+  let timeImageJS = document.getElementById("timeImage");
 
   if (time == partytime) {
     image =
@@ -83,7 +83,7 @@ let updateClock = function () {
 
   console.log(messageText);
   timeEventJS.innerText = messageText;
-  lolcatImage.src = image;
+  timeImage.src = image;
 
   showCurrentTime();
 };
@@ -100,11 +100,11 @@ let partyEvent = function () {
   if (partytime < 0) {
     partytime = new Date().getHours();
     partyTimeButton.innerText = "Party Over!";
-    partyTimeButton.style.backgroundColor = "#0A8DAB";
+    // partyTimeButton.style.backgroundColor = "#0A8DAB";
   } else {
     partytime = -1;
     partyTimeButton.innerText = "Party Time!";
-    partyTimeButton.style.backgroundColor = "#222";
+    // partyTimeButton.style.backgroundColor = "#222";
   }
 };
 
