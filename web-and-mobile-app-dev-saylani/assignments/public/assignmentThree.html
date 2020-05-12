@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assignmentThree.css" />
+    <title>Saylani Welfare Trust</title>
+  </head>
+  <body>
+    <!-- start of first nav bar -->
+    <div class="alert alert-primary" role="alert" id="firstNavBar">
+      <a href="https://www.facebook.com/saylaniwelfare/"
+        ><img src="1.png" class="icons"
+      /></a>
+      <a href="https://twitter.com/OfficialSwit"
+        ><img src="2.png" class="icons"
+      /></a>
+      <a href="https://www.instagram.com/saylaniwelfare/"
+        ><img src="3.png" class="icons"
+      /></a>
+      <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage"
+        ><img src="4.png" class="icons"
+      /></a>
+      <a
+        href="https://api.whatsapp.com/send?phone=923331201585&text=&source=&data=&app_absent="
+        ><img src="5.png" class="icons"
+      /></a>
+      <span id="navBarText"
+        >Millions of people's life has changed, millions more awaiting your
+        donation</span
+      >
+      <button type="button" class="btn btn-light" id="ukDonorBtn">
+        UK Donor
+      </button>
+      <button type="button" class="btn btn-light">Donate Now</button>
+      <button type="button" class="btn btn-light">SMIT Results</button>
+    </div>
+    <!-- end of first nav bar -->
+
+    <!-- start of second nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- saylani logo image in second navbar -->
+      <img src="saylaniLogo.jpg" id="saylaniLogo" />
+
+      <!-- About dropdown in second navbar -->
+
+      <!-- home button on second navbar -->
+      <button type="button" class="btn btn-primary" id="homeButton">
+        <a href="https://www.saylaniwelfare.com/home" id="homeBtnLink">Home</a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- start of about dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://www.saylaniwelfare.com/Introduction"
+                >Introduction</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.saylaniwelfare.com/Chairman-Message"
+                >Chairman Message</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.saylaniwelfare.com/Saylani-Annual-Report"
+                >Saylani Annual Report</a
+              >
+            </div>
+          </li>
+          <!-- end of about dropdown -->
+
+          <!-- start of saylani services dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Saylani Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://www.saylaniwelfare.com/Hajj-Application-Form"
+                >Hajj Application Form</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.saylaniwelfare.com/Saylani-Dastarkhwan"
+                >Saylani Dastarkhwan</a
+              >
+              <a class="dropdown-item" href="">Saylani RO Plant</a>
+              <a class="dropdown-item" href="#">Online Sadqa</a>
+              <a class="dropdown-item" href="#">Online Taweezat/Istikhara</a>
+              <a class="dropdown-item" href="#">Saylani Job Bank</a>
+              <a class="dropdown-item" href="#">Online Quran Academy</a>
+              <a class="dropdown-item" href="#">Books</a>
+              <a class="dropdown-item" href="#">Saylani Online Masajid</a>
+            </div>
+          </li>
+          <!-- end of saylani services dropdown -->
+
+          <!-- start of future projects dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Future Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="">Saylani University</a>
+              <a class="dropdown-item" href="#">Saylani City</a>
+            </div>
+          </li>
+          <!-- end of future projects dropdown -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.saylaniwelfare.com/Media"
+              >Media</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.saylaniwelfare.com/News"
+              >News</a
+            >
+          </li>
+
+          <!--start of donation dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Donation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Bank Details</a>
+              <a class="dropdown-item" href="#">Sadqa</a>
+              <a class="dropdown-item" href="#">Aqiqa</a>
+              <a class="dropdown-item" href="#">Other Donation</a>
+              <a class="dropdown-item" href="#">Corona Effecties</a>
+              <a class="dropdown-item" href="#">Ramazan-2020</a>
+              <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+          </li>
+          <!--end of donation dropdown -->
+        </ul>
+      </div>
+    </nav>
+    <!-- end of second nav bar -->
+
+    <!-- start of photo gallery -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner" id="photoGallery">
+        <div class="carousel-item active">
+          <img src="6.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="7.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="8.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="9.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <!-- end of photo gallery -->
+
+    <!-- start of marquee down the gallery -->
+    <marquee behavior="" direction="left" id="firstMarquee"
+      >Thank you Saylani Mass IT Training and Sir Ali Mughal</marquee
+    >
+    <!-- end of marquee down the gallery -->
+
+    <!-- start of div down the marquee -->
+    <div>
+      <h1 id="introHeading">INTRO</h1>
+      <h1 id="ductionHeading">DUCTION</h1>
+      <br />
+      <img src="saylaniLogo.jpg" alt="" id="logoDownIntro" />
+      <p id="introPara">
+        Established in May 1999 by famous spiritual and religious scholar
+        Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was
+        built on the fundamentals of breaking the cycle of poverty, alleviating
+        the financial troubles of the poor, giving people a chance to live a
+        dignified life and spreading happiness. <br /><br />
+        We are an organization that believes in lighting up the lives of
+        underprivileged people across the world. We endeavor to provide the best
+        quality services in areas including food, education, medical and social
+        welfare free of cost to people living in the dark. With over 60
+        different sectors, we feed thousands of hungry people each day, hundreds
+        more are given the hope of life through medical health care, many are
+        educated to become leaders of tomorrow and several are given the
+        opportunity to stand on their feet financially. <br /><br />
+        Today, we are proud to say that our physical presence extends throughout
+        Pakistan with a vast network of 125 branches operating in major cities
+        including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and
+        Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA
+        and UAE as well. Our worldwide branches are operating under the guidance
+        of a team of over 2,000 working professionals who help almost 125,000
+        people on a daily basis. <br /><br />
+        We strongly believe that a little help goes a long way and our work
+        would not be possible without the generous support of our valuable
+        donors. Our local and international donors have graciously lent us a
+        hand by supporting our causes and enabling us to serve the needs of
+        people in need.
+      </p>
+    </div>
+    <!-- end of div down the marquee -->
+
+    <!-- start of div down the intro para -->
+    <div id="divDownIntroPara">
+      <div class="divInsideDivDownIntro">
+        <img src="plate.png" alt="" id="plateIcon" />
+        <h1 class="numberInsideDivDownIntro">125,000</h1>
+        <h1 class="textInsideDivDownIntro">
+          DAILY DASTARKHAN<span class="greenText">(MONTHLY)</span>
+        </h1>
+      </div>
+      <div class="divInsideDivDownIntro">
+        <img src="family.png" alt="" id="plateIcon" />
+        <h1 class="numberInsideDivDownIntro">7,500</h1>
+        <h1 class="textInsideDivDownIntro">
+          FAMILY ADOPTION<span class="greenText">(MONTHLY)</span>
+        </h1>
+      </div>
+      <div class="divInsideDivDownIntro">
+        <img src="medical.png" alt="" id="plateIcon" />
+        <h1 class="numberInsideDivDownIntro">43,749</h1>
+        <h1 class="textInsideDivDownIntro">
+          MEDICAL<span class="greenText">(MONTHLY)</span>
+        </h1>
+      </div>
+      <div class="divInsideDivDownIntro">
+        <img src="education.png" alt="" id="plateIcon" />
+        <h1 class="numberInsideDivDownIntro">180,000</h1>
+        <h1 class="textInsideDivDownIntro">
+          EDUCATION<span class="greenText">(MONTHLY)</span>
+        </h1>
+      </div>
+    </div>
+    <br /><br />
+    <!-- end of div down the intro para -->
+
+    <!-- start of div down performance div -->
+    <div>
+      <h1 id="introHeading">WHAT WE</h1>
+      <h1 id="ductionHeading">ARE DOING?</h1>
+      <img src="saylaniLogo.jpg" alt="" id="logoDownIntro" />
+    </div>
+    <br />
+    <!-- end of div down performance div -->
+
+    <!-- start of cards div down what we are doing heading -->
+    <div class="cards">
+      <div class="card-body">
+        <img src="donation.png" alt="" class="cardImage" />
+        <h4 class="card-title">ONLINE SADQAH</h4>
+      </div>
+      <div class="card-body">
+        <img src="family.png" alt="" class="cardImage" />
+        <h4 class="card-title">WELFARE</h4>
+      </div>
+      <div class="card-body">
+        <img src="medical.png" alt="" class="cardImage" />
+        <h4 class="card-title">MEDICAL</h4>
+      </div>
+      <br /><br />
+      <div class="card-body">
+        <img src="plate.png" alt="" class="cardImage" />
+        <h4 class="card-title">DASTARKHWAN</h4>
+      </div>
+      <div class="card-body">
+        <img src="drop.png" alt="" class="cardImage" />
+        <h4 class="card-title">RO PLANT</h4>
+      </div>
+      <div class="card-body">
+        <img src="education.png" alt="" class="cardImage" />
+        <h4 class="card-title">EDUCATION</h4>
+      </div>
+    </div>
+    <br /><br />
+    <!-- start of cards div down what we are doing heading -->
+
+    <!-- start of div down the cards -->
+    <div id="divDownCards">
+      <h1 class="Heading">MISSION AND UPCOMING PROJECTS</h1>
+      <br />
+      <div class="cards">
+        <div class="cardBody2">
+          <img src="liver.png" alt="" class="cardImage" />
+          <h4 class="card-title">HAPATITIS</h4>
+        </div>
+        <div class="cardBody2">
+          <img src="house.png" alt="" class="cardImage" />
+          <h4 class="card-title">HOUSING SOCIETY</h4>
+        </div>
+        <div id="upcomingEventsDiv">
+          <h1 class="Heading">Upcoming Events</h1>
+          <marquee
+            behavior=""
+            direction="up"
+            id="secondMarquee"
+            scrollamount="1"
+            ><p>
+              Established in May 1999 by famous spiritual and religious scholar
+              Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust
+              was built on the fundamentals of breaking the cycle of poverty,
+              alleviating the financial troubles of the poor, giving people a
+              chance to live a dignified life and spreading happiness.
+              <br /><br />
+              We are an organization that believes in lighting up the lives of
+              underprivileged people across the world. We endeavor to provide
+              the best quality services in areas including food, education,
+              medical and social welfare free of cost to people living in the
+              dark. With over 60 different sectors, we feed thousands of hungry
+              people each day, hundreds more are given the hope of life through
+              medical health care, many are educated to become leaders of
+              tomorrow and several are given the opportunity to stand on their
+              feet financially. <br /><br />
+              Today, we are proud to say that our physical presence extends
+              throughout Pakistan with a vast network of 125 branches operating
+              in major cities including Karachi, Lahore, Islamabad, Rawalpindi,
+              Hyderabad and Faisalabad. Apart from Pakistan, we have overseas
+              offices in the UK, USA and UAE as well. Our worldwide branches are
+              operating under the guidance of a team of over 2,000 working
+              professionals who help almost 125,000 people on a daily basis.
+              <br /><br />
+              We strongly believe that a little help goes a long way and our
+              work would not be possible without the generous support of our
+              valuable donors. Our local and international donors have
+              graciously lent us a hand by supporting our causes and enabling us
+              to serve the needs of people in need.
+            </p></marquee
+          >
+        </div>
+        <br /><br />
+        <div class="cardBody2">
+          <img src="laptop.jpg" alt="" class="cardImage" />
+          <h4 class="card-title">IT LITERACY</h4>
+        </div>
+        <div class="cardBody2">
+          <img src="desert.png" alt="" class="cardImage" />
+          <h4 class="card-title">THARPARKAR</h4>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <!-- end of div down the cards -->
+
+    <!-- start of image gallery div -->
+    <div id="imageGalleryDiv">
+      <h1 id="introHeading">IMAGE</h1>
+      <h1 id="ductionHeading">GALLERY</h1>
+      <img
+        src="saylaniLogo.jpg"
+        alt=""id="logoDownIntro"
+      /><br /><br /><br />
+      <img src="s1.jpg" alt="" id="imageOne" />
+      <img src="s3.jpg" alt="" />
+      <img src="s4.jpg" alt="" />
+      <img src="s5.jpg" alt="" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- end of image gallery div -->
+
+    <!-- start of footer div -->
+    <div id="footerDiv">
+      <div id="leftMostDiv">
+        <span>Head Office,</span><br />
+        <span>A-25, Bahadurabad Chowrangi Karachi, Pakistan</span><br />
+        <span>UAN: 111-729-526 <span>||</span> (+0092-213) 4130786-90</span
+        ><br />
+        <span>CELL: 92-311-1729526</span><br />
+        <span>USA NO +1(716)941 7792</span><br />
+        <span>UK NO (+44)115 970 6256</span><br />
+        <span>info@saylaniwelfare.com</span>
+      </div>
+      <div>
+        <h5 id="usefulLinksHeading">
+          Useful Links
+        </h5>
+      </div>
+      <div id="connectWithUsDiv">
+        <h5 id="connectWithUsHeading">
+          Connect With Us
+        </h5><br><br>
+        <div id="imagesDiv"><a href="https://www.facebook.com/saylaniwelfare/"
+        ><img src="1.png" id="fbIcon" class="icons"
+      /></a>
+      <a href="https://twitter.com/OfficialSwit"
+        ><img src="2.png" class="icons"
+      /></a>
+      <a href="https://www.instagram.com/saylaniwelfare/"
+        ><img src="3.png" class="icons"
+      /></a>
+      <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage"
+        ><img src="4.png" class="icons"
+      /></a>
+      <a
+        href="https://api.whatsapp.com/send?phone=923331201585&text=&source=&data=&app_absent="
+        ><img src="5.png" class="icons"
+      /></a></div>
+      </div>
+    </div>
+    <!-- end of footer div -->
+
+    <!-- start of last div -->
+    <div id="lastDiv">
+      <p id="textInsideLastDiv">Copyright © 2020 Saylani Welfare</p>
+    </div>
+    <!-- end of last div -->
+
+    <!-- bootstrap js links -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

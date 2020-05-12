@@ -1,0 +1,21 @@
+body{
+    padding: 1cm;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  text-decoration: underline;
+}
+
+button{
+    background-color: tomato;
+    color: white;
+    font-size: xx-large;
+    width: 300px;
+    height: 200px;
+}
+
+button:hover{
+    background-color: crimson;
+}

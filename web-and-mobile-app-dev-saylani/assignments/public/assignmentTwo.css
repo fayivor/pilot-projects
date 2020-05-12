@@ -1,0 +1,129 @@
+body {
+  padding: 1cm;
+}
+#title {
+  color: purple;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#saylaniLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#successIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#belowSuccessIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  color: green;
+}
+
+#belowThanks {
+  color: purple;
+  text-align: center;
+}
+
+#goBackLink {
+  color: purple;
+  text-align: center;
+}
+
+form {
+  background-color: blueviolet;
+  color: white;
+  line-height: 40px;
+  padding: 1cm;
+  padding-bottom: 0px;
+}
+div {
+  background-color: blueviolet;
+  padding-bottom: 10px;
+}
+table {
+  line-height: 8px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+#coursesContent {
+  margin-left: 2cm;
+  line-height: 100px;
+}
+
+#tableContent {
+  margin-left: 7cm;
+}
+
+#hobbiesContent {
+  margin-left: 5cm;
+}
+
+#othersContent {
+  margin-left: 7cm;
+}
+
+#countryContent {
+  margin-left: 4.7cm;
+}
+
+#stateContent {
+  margin-left: 5.4cm;
+}
+
+#pinContent {
+  margin-left: 4.7cm;
+}
+
+#cityContent {
+  margin-left: 5.7cm;
+}
+
+#addressContent {
+  margin-left: 4.7cm;
+}
+
+#genderContent {
+  margin-left: 5cm;
+}
+
+#mobileContent {
+  margin-left: 3cm;
+}
+
+#emailContent {
+  margin-left: 4.7cm;
+}
+
+#dobContent {
+  margin-left: 3.5cm;
+}
+
+#lnContent {
+  margin-left: 4.2cm;
+}
+
+#fnContent {
+  margin-left: 4cm;
+}
+
+#submitButton {
+  margin-left: 12cm;
+  border-radius: 5px;
+}
+
+#reset {
+  border-radius: 5px;
+}
