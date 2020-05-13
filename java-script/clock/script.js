@@ -73,11 +73,12 @@ let updateClock = function () {
       "https://images.pexels.com/photos/1052150/pexels-photo-1052150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
     messageText = "Good morning!";
   } else if (time >= evening) {
-    image = "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cat_sleep.jpg";
+    image =
+      "https://images.pexels.com/photos/1825012/pexels-photo-1825012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940https://upload.wikimedia.org/wikipedia/commons/8/8c/Cat_sleep.jpg";
     messageText = "Good evening!";
   } else {
     image =
-      "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg";
+      "https://images.pexels.com/photos/794907/pexels-photo-794907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
     messageText = "Good afternoon!";
   }
 
