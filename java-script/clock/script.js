@@ -82,7 +82,6 @@ let updateClock = function () {
     messageText = "Good afternoon!";
   }
 
-  console.log(messageText);
   timeEventJS.innerText = messageText;
   timeImage.src = image;
 
@@ -100,12 +99,10 @@ let partyButton = document.getElementById("partyTimeButton");
 let partyEvent = function () {
   if (partytime < 0) {
     partytime = new Date().getHours();
-    partyTimeButton.innerText = "Party Over!";
-    // partyTimeButton.style.backgroundColor = "#0A8DAB";
+    partyButton.innerText = "Party Over!";
   } else {
     partytime = -1;
-    partyTimeButton.innerText = "Party Time!";
-    // partyTimeButton.style.backgroundColor = "#222";
+    partyButton.innerText = "Party Time!";
   }
 };
 
