@@ -3,7 +3,6 @@ let input = document.getElementById("userInput");
 let ul = document.querySelector("ul");
 let item = document.getElementsByTagName("li");
 
-
 function inputLength() {
   return input.value.length;
 }
